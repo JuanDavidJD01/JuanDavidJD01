@@ -44,14 +44,14 @@ start chrome.exe --app="file://wsl$/Ubuntu-22.04/home/tu-usuario/web-scraping-to
 
 ## BeautifulSoup
 
-Extraccion de data mediante un archivo.html:
+Extraccion de data de pagina:
 ```bash
 ./tools/beautifulsoup/beautiful_test.py
 ```
 
 ## MechanicalSoup
 
-Extraccion de data
+Extraccion de data:
 ```bash
 ./tools/mechanicalsoup/mechanical_test.py
 ```
