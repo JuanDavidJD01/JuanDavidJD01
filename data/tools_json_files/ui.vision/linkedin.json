@@ -1,0 +1,75 @@
+{
+  "Name": "linkedin",
+  "CreationDate": "2024-11-29",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.linkedin.com/feed/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember123\"]/div[2]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember123\"]/div[2]/div/div",
+        "xpath=//div[3]/div/div/div[2]/div/div",
+        "css=#ember123 > div.scaffold-layout.scaffold-layout--breakpoint-lg.scaffold-layout--sidebar-main-aside.scaffold-layout--reflow > div > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"global-nav\"]/div/nav/ul/li[3]/a/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"global-nav\"]/div/nav/ul/li[3]/a/span",
+        "xpath=//li[3]/a/span",
+        "css=#global-nav > div > nav > ul > li:nth-child(3) > a > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.linkedin.com/jobs/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "OCRExtractRelative",
+      "Target": "ocr_test_dpi_96.png",
+      "Value": "ocr_test",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Result: ${ocr_test}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ember861\"]/span/strong",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ember861\"]/span/strong",
+        "xpath=//strong",
+        "css=#ember861 > span:nth-child(1) > strong"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "OCRExtractRelative",
+      "Target": "ocr_test2_dpi_96.png",
+      "Value": "ocr_test2",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Result: ${ocr_test2}",
+      "Value": "green",
+      "Description": ""
+    }
+  ]
+}
